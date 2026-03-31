@@ -1,4 +1,4 @@
-# ecommerce — Backend Developer Assessment
+# Backend Developer Assessment
 
 A clean-architecture Go service implementing the Product domain entity.
 
