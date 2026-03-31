@@ -1,0 +1,24 @@
+run:
+  timeout: 5m
+  go: "1.22"
+
+linters:
+  enable:
+    - errcheck
+    - gosimple
+    - govet
+    - ineffassign
+    - staticcheck
+    - unused
+    - goimports
+    - misspell
+    - bodyclose
+    - godot
+
+issues:
+  exclude-rules:
+    - path: "_test.go"
+      linters:
+        - godot
+  max-issues-per-linter: 0
+  max-same-issues: 0
